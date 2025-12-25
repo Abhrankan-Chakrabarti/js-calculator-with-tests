@@ -1,14 +1,13 @@
 {
-  "name": "calculator-assignment",
+  "name": "calculator-dom-assignment",
   "version": "1.0.0",
-  "private": true,
-  "type": "commonjs",
+  "description": "A simple calculator implemented with vanilla JavaScript, tested using Jest and JSDOM.",
   "scripts": {
-    "test": "jest --runInBand"
+    "test": "npx jest --runInBand"
   },
   "devDependencies": {
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
-    "jsdom": "^21.1.0"
+    "jsdom": "^22.1.0"
   }
 }
